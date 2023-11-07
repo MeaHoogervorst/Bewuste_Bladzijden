@@ -1,0 +1,166 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    min-height: 100vh;
+}
+
+section{
+ display: flex;
+ justify-content: center;
+}
+section img{
+    width: 50%;
+    margin: 9px;
+}
+body{
+    background-color: #f2efdf;
+    background-image: url(lettersachtergrond.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.home main img{
+    width: 40%;
+}
+nav{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+ }
+ nav::before {
+    content: "";
+    position: absolute;
+    background:url(blad_logo.svg) no-repeat left bottom / 100px auto;
+    width: 100px;
+    height: 98px;
+    bottom: 90%;
+    right: 20px;
+    pointer-events: none;
+
+
+ }
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#727456;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+nav a{
+    text-decoration: none;
+    color: #f2efdf;
+}
+nav li{  
+    list-style-type: none;
+}
+section p{
+   text-align:center;
+   margin-right: 10px;
+}
+
+
+h2{
+    font-size: small;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 15px;  
+    text-align: center;
+}
+p{
+    font-size: small;
+    color:#59554c;
+    margin-left: 1em;
+
+}
+div{
+    margin-bottom: 25px; 
+    position: relative;
+}
+
+div a{
+  position: relative;
+  color: #59554c;
+  text-decoration-line: underline;
+}
+
+div p{
+    margin-left: 14px;
+}
+form{
+    padding: 20px;
+    border: 1px solid #59554c;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+
+input, textarea{
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #59554c;
+    background: transparent;
+    font-size: 15px;
+    color: #59554c;
+    border-radius: 10px;
+}
+
+label{
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    color: #59554c;
+    cursor: text;
+    transition: 0.2s;
+}
+
+button{
+    padding: 10px 0;
+    background-color: #f2efdf;
+    color: #59554c;
+    border: 1px solid #59554c;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+@font-face{
+    font-family: 'LuckiestGuy-Regular';
+    src: url(LuckiestGuy-Regular.ttf);
+}
+h1,h2,a{
+    font-family:LuckiestGuy-Regular;
+    font-size:smaller;
+}
+.home h2{
+    width: 100%;
+    text-align: left;
+
+}
+h1{
+display: flex;
+justify-content: center;
+margin-top: 2em;
+}
+.diy body{
+    background-image:url(achtergronddiy.png);
+}
+.diy p{
+    width: 50%;
+    margin-left: 2em;
+}
+.diy h1{
+    display: flex;
+    justify-content: left;
+    margin-left: 2.5em;
+}
