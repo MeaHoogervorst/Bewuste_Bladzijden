@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228.85 138.05">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #364024;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 127px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #364024;
+        stroke-miterlimit: 10;
+        stroke-width: 7px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-2" x="3.5" y="32.01" width="88.75" height="84.82" rx="12" ry="12"/>
+    <circle class="cls-2" cx="47.88" cy="74.42" r="18.52"/>
+    <circle class="cls-2" cx="74.8" cy="48.62" r="3.56"/>
+  </g>
+  <text class="cls-1" transform="translate(135.25 106.3)"><tspan x="0" y="0">@</tspan></text>
+</svg>

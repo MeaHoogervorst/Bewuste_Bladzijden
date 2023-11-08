@@ -52,19 +52,21 @@ nav ul{
 nav a{
     text-decoration: none;
     color: #f2efdf;
+    letter-spacing: 1px;
 }
+
 nav li{  
     list-style-type: none;
 }
 section p{
-   text-align:center;
    margin-right: 10px;
+   width: 90%;
 }
 
 
 h2{
     font-size: small;
-    margin-left: 2em;
+    margin-left: 1em;
     margin-right: 2em;
     margin-top: 15px;  
     text-align: center;
@@ -72,7 +74,7 @@ h2{
 p{
     font-size: small;
     color:#59554c;
-    margin-left: 1em;
+    margin-left: 3em;
 
 }
 div{
@@ -135,12 +137,19 @@ textarea:valid~label{
 }
 
 @font-face{
-    font-family: 'LuckiestGuy-Regular';
-    src: url(LuckiestGuy-Regular.ttf);
+    font-family: 'Oswald-VariableFont';
+    src: url(Oswald-VariableFont_wght.ttf);
 }
 h1,h2,a{
-    font-family:LuckiestGuy-Regular;
+    font-family:Oswald-VariableFont;
     font-size:smaller;
+}
+@font-face{
+    font-family: 'Abel-Regular';
+    src: url(Abel-Regular.ttf);
+}
+p,label{
+    font-family: Abel-Regular;
 }
 .home h2{
     width: 100%;
@@ -156,11 +165,55 @@ margin-top: 2em;
     background-image:url(achtergronddiy.png);
 }
 .diy p{
-    width: 50%;
+    width: 47%;
     margin-left: 2em;
 }
 .diy h1{
     display: flex;
     justify-content: left;
+    margin-left: 2em;
+    font-size:smaller;
+}
+.diy h2{
+    display: flex;
+    justify-content: left;
     margin-left: 2.5em;
+font-size: small;
+}
+.locaties section a{
+    color: #364023;
+}
+h1 img{
+    width: 4%;
+    margin-right: 1em;
+}
+.locaties li{
+   letter-spacing: 1px;
+}
+
+.locaties a{
+text-decoration: none;
+}
+section a{
+    font-family:Abel-Regular ;
+}
+
+.contact h1{
+    font-size: small;
+    margin-left: 4em;
+    margin-top: 15px;  
+    text-align: center;
+    width: 75%;
+}
+
+p img{
+    width: 63%;
+    margin-left: 5em;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3em;
+    max-width: 75%;
 }
