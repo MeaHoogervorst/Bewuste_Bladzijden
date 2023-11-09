@@ -1,0 +1,209 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    min-height: 100vh;
+}
+body{
+    background-color: #f2efdf;
+    background-image: url(background_images/lettersachtergrond.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+ }
+ nav::before {
+    content: "";
+    position: absolute;
+    background:url(afbeeldingen/blad_logo.svg) no-repeat left bottom / 100px auto;
+    width: 100px;
+    height: 98px;
+    bottom: 90%;
+    right: 20px;
+    pointer-events: none;
+ }
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#727456;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+}
+nav a{
+    text-decoration: none;
+    color: #f2efdf;
+    letter-spacing: 1px;
+}
+nav li{  
+    list-style-type: none;
+}
+section img{
+    width: 50%;
+    margin: 9px;
+}
+h1{
+display: flex;
+justify-content: center;
+}
+h1 img{
+    width: 50%;
+    margin-top: 1em;
+}
+h2{
+    font-size: small;
+    margin-left: 1em;
+    margin-right: 2em;
+    margin-top: 15px;  
+    text-align: center;
+}
+h2 img{
+    width: 4%;
+    margin-right: 0.5em;
+}
+section{
+ display: flex;
+ justify-content: center;
+}
+section p{
+   margin-right: 10px;
+   width: 90%;
+}
+section a{
+    font-family:Abel-Regular ;
+}
+p{
+    font-size: small;
+    color:#59554c;
+    margin-left: 3em;
+}
+div{
+    margin-bottom: 25px; 
+    position: relative;
+}
+div a{
+  position: relative;
+  color: #59554c;
+  text-decoration-line: underline;
+}
+div p{
+    margin-left: 14px;
+}
+@font-face{
+    font-family: 'Archivo-Italic-VariableFont';
+    src: url(fonts/Archivo-Italic-VariableFont_wdth,wght.ttf);
+}
+h1,h2,a,footer p{
+    font-family:Archivo-Italic-VariableFont;
+    font-size:smaller;
+}
+@font-face{
+    font-family: 'Abel-Regular';
+    src: url(fonts/Abel-Regular.ttf);
+}
+p,label{
+    font-family: Abel-Regular;
+}
+ul{
+    margin-left: 2em;
+}
+a{
+ color: #364023;
+}
+p img{
+    width: 63%;
+    margin-left: 4em;
+}
+.home main img{
+    width: 40%;
+}
+.home h2{
+    width: 90%;
+    text-align: left;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3em;
+    max-width: 75%;
+    font-size: small;
+}
+.diy body{
+    background-image:url(background_images/achtergronddiy.png);
+}
+.diy h2{
+    display: flex;
+    justify-content: left;
+    margin-left: 2em;
+    font-size:smaller;
+}
+.diy p{
+    width: 47%;
+    margin-left: 2em;
+}
+.locaties section a{
+    color: #364023;
+}
+.locaties li{
+   letter-spacing: 1px;
+}
+.locaties a{
+text-decoration: none;
+}
+.contact h2{
+    width: 80%;
+    margin-left: 2.5em;
+}
+form{
+    padding: 20px;
+    border: 1px solid #59554c;
+    margin: 40px;
+    border-radius: 10px;
+}
+input{
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #59554c;
+    background: transparent;
+    font-size: 15px;
+    color: #59554c;
+    border-radius: 10px;
+}
+label{
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    color: #59554c;
+    cursor: text;
+    transition: 0.2s;
+    font-weight: bolder;
+    font-size:medium;
+}
+button{
+    padding: 10px 0;
+    background-color: #f2efdf;
+    color: #59554c;
+    border: 1px solid #59554c;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+input:focus~label,
+input:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+

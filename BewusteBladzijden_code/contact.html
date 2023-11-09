@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" class="contact">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bewuste Bladzijden</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="afbeeldingen/logo_donkergroen.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+      <h1>
+        <img src="afbeeldingen/BewusteBladzijden.png" alt="titel">
+      </h1>
+      <nav>
+          <ul>
+             <li> <a href="index.html">Home</a></li>
+             <li> <a href="diy.html">Diy</a></li>
+             <li> <a href="locaties.html">Locaties</a></li>
+             <li> <a href="contact.html">Contact</a></li> 
+         </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Zelf een boekenkast neergezet? Stuur hieronder een berichtje met de locatie! </h2>
+        <form action="https://formsubmit.co/mea.hoogervorst@gmail.com" method="post">
+          <div>
+              <input type="text"  id="name" class="name" required>
+              <label for="name">Naam</label>
+          </div>
+          <div>
+              <input type="text" id="number" class="number" required>
+              <label for="number">Telefoonnummer</label> 
+          </div>
+          <div>
+              <input type="text" id="email" class="email" required>
+              <label for="email">E-mail</label>
+          </div>
+          <div>
+            <input type="text" id="message" class="message" required>
+              <label id="locatie" for="message">Locatie</label>
+          </div>
+          <button type="submit">Verstuur</button>
+        </form>
+    </main>
+</body>
+</html>
